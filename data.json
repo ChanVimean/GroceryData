@@ -1,0 +1,757 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Tony",
+      "username": "tonystark",
+      "gmail": "tonystark@gmail.com",
+      "password": "@IronMan01"
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "name": "Rok Rak",
+      "username": "rokrakdev",
+      "gmail": "rokrakdev@gmail.com",
+      "password": "@rrD169"
+    }
+  ],
+  "data": {
+    "meat": [
+      {
+        "id": 1,
+        "name": "Chicken",
+        "category": "meat",
+        "stock": true,
+        "quantity": 35,
+        "rating": 8.0,
+        "description": "Farm-raised chicken with lean protein and rich flavor. A versatile choice for a wide range of dishes, from everyday meals to gourmet recipes.",
+        "bakeIn": "2025-04-03",
+        "expireIn": "2025-05-05",
+        "discount": 10,
+        "image": "",
+        "review": [],
+        "part": {
+          "breast": {
+            "label": "Chicken Breast",
+            "price": 3.29,
+            "weight": 1.2,
+            "image": "",
+            "description": "Boneless, skinless white meat that is lean, tender, and ideal for grilling, baking, or slicing into salads."
+          },
+          "drumstick": {
+            "label": "Chicken Drumstick",
+            "price": 2.79,
+            "weight": 0.3,
+            "image": "",
+            "description": "Juicy dark meat with bold flavor, perfect for frying, roasting, or BBQ. A family favorite for its taste and ease of cooking."
+          },
+          "wing": {
+            "label": "Chicken Wing",
+            "price": 2.19,
+            "weight": 0.25,
+            "image": "",
+            "description": "Crispy and flavorful, these wings are perfect for deep frying, air frying, or coating in your favorite sauces."
+          },
+          "thigh": {
+            "label": "Chicken Thigh",
+            "price": 2.89,
+            "weight": 0.4,
+            "image": "",
+            "description": "Rich and tender dark meat that stays moist during cooking. Great for curries, stews, or grilling with marinades."
+          },
+          "whole": {
+            "label": "Whole Chicken",
+            "price": 7.99,
+            "weight": 2.5,
+            "image": "",
+            "description": "A full bird ideal for roasting, meal prepping, or slow cooking. Includes all parts with skin and bones for maximum flavor."
+          }
+        }
+      },
+      {
+        "id": 2,
+        "name": "Beef",
+        "category": "meat",
+        "stock": true,
+        "quantity": 20,
+        "rating": 8.7,
+        "description": "Premium-grade beef sourced from grass-fed cattle. Known for its rich flavor, high protein, and versatility in both slow-cooked and grilled recipes.",
+        "bakeIn": "2025-04-04",
+        "expireIn": "2025-06-05",
+        "discount": 5,
+        "image": "",
+        "review": [],
+        "part": {
+          "ribeye": {
+            "label": "Beef Ribeye Steak",
+            "price": 14.99,
+            "weight": 0.6,
+            "image": "",
+            "description": "A well-marbled, tender cut perfect for grilling or pan-searing. Rich in flavor and juiciness."
+          },
+          "brisket": {
+            "label": "Beef Brisket",
+            "price": 10.49,
+            "weight": 1.3,
+            "image": "",
+            "description": "A flavorful, tougher cut ideal for smoking, braising, or slow-cooking to tender perfection."
+          },
+          "ground": {
+            "label": "Ground Beef",
+            "price": 6.99,
+            "weight": 1.0,
+            "image": "",
+            "description": "Finely ground beef with balanced fat content. Excellent for burgers, tacos, and meat sauces."
+          },
+          "tenderloin": {
+            "label": "Beef Tenderloin",
+            "price": 19.99,
+            "weight": 0.4,
+            "image": "",
+            "description": "The most tender beef cut, often used for filet mignon. Mild flavor and soft texture."
+          }
+        }
+      },
+      {
+        "id": 3,
+        "name": "Pork",
+        "category": "meat",
+        "stock": true,
+        "quantity": 28,
+        "rating": 8.4,
+        "description": "Fresh pork sourced from ethically raised pigs. Ideal for a variety of cooking styles, offering both tender and richly flavored cuts.",
+        "bakeIn": "2025-04-06",
+        "expireIn": "2025-06-10",
+        "discount": 0,
+        "image": "",
+        "review": [],
+        "part": {
+          "loin": {
+            "label": "Pork Loin",
+            "price": 5.99,
+            "weight": 1.2,
+            "image": "",
+            "description": "A lean and tender cut, great for roasting, grilling, or slicing into chops."
+          },
+          "belly": {
+            "label": "Pork Belly",
+            "price": 6.49,
+            "weight": 1.5,
+            "image": "",
+            "description": "Rich and fatty, often used for bacon or slow-roasting until crisp and tender."
+          },
+          "ribs": {
+            "label": "Pork Ribs",
+            "price": 7.29,
+            "weight": 1.0,
+            "image": "",
+            "description": "Flavorful and meaty, perfect for BBQ or oven-baking with dry rubs or marinades."
+          },
+          "ham": {
+            "label": "Pork Ham",
+            "price": 6.89,
+            "weight": 2.0,
+            "image": "",
+            "description": "Classic cut from the hind leg, suitable for roasting or slicing for sandwiches."
+          }
+        }
+      },
+      {
+        "id": 4,
+        "name": "Lamb",
+        "category": "meat",
+        "stock": true,
+        "quantity": 18,
+        "rating": 8.9,
+        "description": "Tender and flavorful lamb, pasture-raised and ideal for both traditional and modern cuisine. Known for its unique taste and succulent texture.",
+        "bakeIn": "2025-04-07",
+        "expireIn": "2025-06-12",
+        "discount": 0,
+        "image": "",
+        "review": [],
+        "part": {
+          "leg": {
+            "label": "Lamb Leg",
+            "price": 11.99,
+            "weight": 2.2,
+            "image": "",
+            "description": "A classic roast cut, bone-in or boneless. Juicy and tender when slow-cooked or oven-roasted."
+          },
+          "chop": {
+            "label": "Lamb Chop",
+            "price": 13.49,
+            "weight": 0.4,
+            "image": "",
+            "description": "Tender cuts from the rib or loin, ideal for quick grilling or pan-searing with herbs."
+          },
+          "rack": {
+            "label": "Rack of Lamb",
+            "price": 18.99,
+            "weight": 0.8,
+            "image": "",
+            "description": "Elegant and tender rib section, often roasted whole or sliced into individual chops."
+          }
+        }
+      },
+      {
+        "id": 5,
+        "name": "Duck",
+        "category": "meat",
+        "stock": true,
+        "quantity": 12,
+        "rating": 8.6,
+        "description": "Rich and flavorful duck meat, known for its dark color and crisp skin. Excellent for gourmet dishes, roasts, or confit.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-06-15",
+        "discount": 0,
+        "image": "",
+        "review": [],
+        "part": {
+          "whole": {
+            "label": "Whole Duck",
+            "price": 14.99,
+            "weight": 2.4,
+            "image": "",
+            "description": "A full duck, ideal for roasting whole or breaking down into parts. Skin-on for crispy texture and maximum flavor."
+          },
+          "breast": {
+            "label": "Duck Breast",
+            "price": 9.49,
+            "weight": 0.6,
+            "image": "",
+            "description": "Lean and tender with a rich, meaty flavor. Best seared skin-side down for crispy texture and medium-rare center."
+          },
+          "leg": {
+            "label": "Duck Leg (Confit Cut)",
+            "price": 6.99,
+            "weight": 0.5,
+            "image": "",
+            "description": "Commonly used in duck confit. Slow-cooked until tender, with skin that crisps beautifully when pan-fried."
+          },
+          "wing": {
+            "label": "Duck Wing",
+            "price": 3.99,
+            "weight": 0.3,
+            "image": "",
+            "description": "Flavor-packed wings great for slow roasting or use in rich stocks and broths."
+          }
+        }
+      }
+    ],
+    "vegetable": [
+      {
+        "id": 1,
+        "name": "Tomato",
+        "category": "vegetable",
+        "stock": true,
+        "quantity": 20,
+        "rating": 7.8,
+        "description": "Fresh, ripe tomatoes with vibrant color and juicy texture. Ideal for salads, sauces, cooking, or slicing raw. Naturally rich in vitamins A and C.",
+        "bakeIn": "2025-04-02",
+        "expireIn": "2025-04-18",
+        "discount": 15,
+        "price": 3.99,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 2,
+        "name": "Potato",
+        "category": "vegetable",
+        "stock": true,
+        "quantity": 30,
+        "rating": 8.2,
+        "description": "Versatile and hearty, potatoes are a staple in kitchens worldwide. Ideal for baking, mashing, roasting, or frying. Rich in carbohydrates and a good source of potassium.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-22",
+        "discount": 10,
+        "price": 2.50,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 3,
+        "name": "Cabbage",
+        "category": "vegetable",
+        "stock": true,
+        "quantity": 25,
+        "rating": 7.5,
+        "description": "Crisp, green cabbage with a mild, slightly sweet flavor. A versatile vegetable for slaws, stir-fries, soups, or even as a wrap. High in fiber and vitamin C.",
+        "bakeIn": "2025-04-03",
+        "expireIn": "2025-04-21",
+        "discount": 12,
+        "price": 1.89,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 4,
+        "name": "Carrot",
+        "category": "vegetable",
+        "stock": true,
+        "quantity": 40,
+        "rating": 8.3,
+        "description": "Sweet, crunchy carrots rich in beta-carotene, fiber, and vitamins. Ideal for snacking, salads, soups, or roasting. A versatile vegetable for both raw and cooked dishes.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-18",
+        "discount": 8,
+        "price": 2.99,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 5,
+        "name": "Onion",
+        "category": "vegetable",
+        "stock": true,
+        "quantity": 50,
+        "rating": 8.0,
+        "description": "A kitchen essential with a strong, savory flavor. Onions are perfect for sautéing, adding to soups, stews, and salads, or caramelizing for depth of flavor. A good source of antioxidants and vitamin C.",
+        "bakeIn": "2025-04-07",
+        "expireIn": "2025-04-15",
+        "discount": 10,
+        "price": 1.49,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 6,
+        "name": "Mushroom",
+        "category": "vegetable",
+        "stock": true,
+        "quantity": 15,
+        "rating": 8.4,
+        "description": "Fresh, earthy mushrooms with a delicate flavor and meaty texture. Ideal for sautés, soups, salads, or pizza toppings. A good source of antioxidants, vitamins, and minerals.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-14",
+        "discount": 12,
+        "price": 4.50,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 7,
+        "name": "Pumpkin",
+        "category": "vegetable",
+        "stock": true,
+        "quantity": 18,
+        "rating": 8.6,
+        "description": "Sweet and earthy pumpkin, perfect for soups, pies, curries, or roasting. Rich in vitamins A and C, fiber, and antioxidants, making it both nutritious and versatile.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-20",
+        "discount": 10,
+        "price": 3.99,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 8,
+        "name": "Broccoli",
+        "category": "vegetable",
+        "stock": true,
+        "quantity": 22,
+        "rating": 8.8,
+        "description": "Crisp and vibrant green broccoli, packed with vitamins, fiber, and antioxidants. Ideal for steaming, roasting, or adding to salads and stir-fries. A healthy addition to any meal.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-15",
+        "discount": 12,
+        "price": 5.50,
+        "image": "",
+        "review": []
+      }
+    ],
+    "fruit": [
+      {
+        "id": 1,
+        "name": "Apple",
+        "category": "fruit",
+        "stock": true,
+        "quantity": 15,
+        "rating": 9.2,
+        "description": "Crisp, juicy apples with a sweet-tart flavor. Perfect for snacking, baking, or adding to salads. Rich in fiber and vitamin C, making it a healthy and versatile fruit.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-22",
+        "discount": 10,
+        "price": 3.49,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 2,
+        "name": "Banana",
+        "category": "fruit",
+        "stock": true,
+        "quantity": 10,
+        "rating": 8.7,
+        "description": "Sweet and creamy bananas, perfect for snacking or adding to smoothies, oatmeal, or baked goods. A great source of potassium and energy for a healthy diet.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-15",
+        "discount": 8,
+        "price": 2.49,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 3,
+        "name": "Strawberry",
+        "category": "fruit",
+        "stock": true,
+        "quantity": 8,
+        "rating": 9.3,
+        "description": "Sweet, juicy strawberries, perfect for desserts, smoothies, or snacking. Rich in antioxidants and vitamin C, these berries are a fresh and healthy treat.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-14",
+        "discount": 12,
+        "price": 4.29,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 4,
+        "name": "Grape",
+        "category": "fruit",
+        "stock": true,
+        "quantity": 6,
+        "rating": 8.9,
+        "description": "Fresh, sweet grapes, perfect for snacking or adding to salads and desserts. Packed with antioxidants and vitamin K, these bite-sized fruits are a healthy and delicious choice.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-18",
+        "discount": 10,
+        "price": 4.99,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 5,
+        "name": "Orange",
+        "category": "fruit",
+        "stock": true,
+        "quantity": 12,
+        "rating": 9.0,
+        "description": "Fresh, juicy oranges with a tangy sweetness, perfect for juicing, snacking, or adding to salads. A great source of vitamin C and antioxidants, promoting a healthy immune system.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-18",
+        "discount": 8,
+        "price": 2.99,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 6,
+        "name": "Mango",
+        "category": "fruit",
+        "stock": true,
+        "quantity": 7,
+        "rating": 9.5,
+        "description": "Ripe and juicy mangoes with a rich, tropical flavor. Perfect for smoothies, salads, salsas, or enjoying fresh. Packed with vitamins A and C, making it a sweet and nutritious treat.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-15",
+        "discount": 15,
+        "price": 3.99,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 7,
+        "name": "Pineapple",
+        "category": "fruit",
+        "stock": true,
+        "quantity": 5,
+        "rating": 8.8,
+        "description": "Sweet and tangy pineapple, perfect for tropical smoothies, fruit salads, or grilling. Packed with vitamin C and bromelain, a natural enzyme that aids digestion. Not for pizza, though!",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-15",
+        "discount": 12,
+        "price": 4.49,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 8,
+        "name": "Cherry",
+        "category": "fruit",
+        "stock": true,
+        "quantity": 6,
+        "rating": 9.1,
+        "description": "Sweet and tangy cherries, perfect for snacking, baking, or adding to desserts. Rich in antioxidants and vitamin C, cherries are a delicious and healthy treat.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-15",
+        "discount": 20,
+        "price": 5.99,
+        "image": "",
+        "review": []
+      }
+    ],
+    "seafood": [
+      {
+        "id": 1,
+        "name": "Crab",
+        "category": "seafood",
+        "stock": true,
+        "rating": 9.5,
+        "description": "Fresh, sweet crab with tender meat, perfect for boiling, grilling, or making crab cakes. A delicacy rich in protein and omega-3s, ideal for any seafood lover.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-12",
+        "discount": 5,
+        "price": 10.29,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 2,
+        "name": "Salmon",
+        "category": "seafood",
+        "stock": true,
+        "rating": 9.3,
+        "description": "Premium-quality salmon known for its rich flavor and vibrant pink color. Perfect for grilling, baking, sashimi, or pan-searing. High in omega-3 fatty acids and protein, making it a nutritious and delicious choice.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-13",
+        "discount": 8,
+        "price": 14.79,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 3,
+        "name": "Shrimp",
+        "category": "seafood",
+        "stock": true,
+        "rating": 9.1,
+        "description": "Fresh, succulent shrimp ideal for stir-fries, grilling, pasta dishes, or seafood platters. Quick to cook and packed with lean protein, they add a sweet, ocean-fresh taste to any meal.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-11",
+        "discount": 5,
+        "price": 11.99,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 4,
+        "name": "Squid",
+        "category": "seafood",
+        "stock": true,
+        "rating": 9.0,
+        "description": "Tender and mild in flavor, squid is a favorite for grilling, frying, or stuffing. Popular in dishes like calamari, it's high in protein and cooks quickly for a satisfying seafood experience.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-12",
+        "weights": [],
+        "discount": 10,
+        "price": 9.49,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 5,
+        "name": "Octopus",
+        "category": "seafood",
+        "stock": true,
+        "rating": 8.9,
+        "description": "Rich and meaty with a slightly sweet taste, octopus is a delicacy enjoyed grilled, braised, or in seafood stews. A lean source of protein that's tender when cooked properly and packed with ocean flavor.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-11",
+        "discount": 15,
+        "price": 13.49,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 6,
+        "name": "Lobster",
+        "category": "seafood",
+        "stock": true,
+        "rating": 9.6,
+        "description": "Premium wild-caught lobster with rich, buttery flavor and tender texture. A gourmet favorite perfect for boiling, grilling, or steaming. High in protein and ideal for special occasions or seafood feasts.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-10",
+        "discount": 6,
+        "price": 22.99,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 7,
+        "name": "Oyster",
+        "category": "seafood",
+        "stock": true,
+        "rating": 8.2,
+        "description": "Freshly harvested oysters served raw, grilled, or baked. Known for their briny, ocean-forward flavor and smooth texture. A delicacy rich in zinc and often enjoyed with lemon, sauces, or a touch of spice.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-09",
+        "discount": 4,
+        "price": 15.89,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 8,
+        "name": "Tuna",
+        "category": "seafood",
+        "stock": true,
+        "rating": 9.4,
+        "description": "Firm, flavorful tuna perfect for grilling, searing, or enjoying raw in sushi and poke. High in protein and omega-3 fatty acids, it's a nutritious and satisfying seafood staple for everyday meals or gourmet dishes.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-12",
+        "discount": 5,
+        "price": 14.75,
+        "image": "",
+        "review": []
+      }
+    ],
+    "dairy": [
+      {
+        "id": 1,
+        "name": "Milk",
+        "category": "dairy",
+        "stock": true,
+        "quantity": 50,
+        "rating": 8.2,
+        "description": "Fresh and creamy cow's milk, perfect for drinking, cereal, coffee, or cooking. Rich in calcium, protein, and essential vitamins. A kitchen staple for all ages.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-16",
+        "discount": 15,
+        "price": 1.79,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 2,
+        "name": "Cheddar Cheese",
+        "category": "dairy",
+        "stock": true,
+        "quantity": 35,
+        "rating": 8.6,
+        "description": "Aged cheddar cheese with a sharp, tangy flavor and firm texture. Perfect for sandwiches, melting on burgers, or adding richness to pasta and baked dishes. A great source of calcium and protein.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-06-01",
+        "discount": 15,
+        "price": 3.49,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 3,
+        "name": "Yogurt",
+        "category": "dairy",
+        "stock": true,
+        "quantity": 25,
+        "rating": 9.0,
+        "description": "Creamy and probiotic-rich yogurt, ideal for breakfast bowls, smoothies, or snacking. Available in plain or flavored varieties. Supports digestion and overall gut health.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-04-22",
+        "discount": 8,
+        "price": 1.99,
+        "image": "",
+        "review": []
+      },      
+      {
+        "id": 4,
+        "name": "Butter",
+        "category": "dairy",
+        "stock": true,
+        "quantity": 40,
+        "rating": 8.7,
+        "description": "Creamy, rich butter made from fresh cream, perfect for cooking, baking, or spreading on toast. Adds a silky, indulgent flavor to dishes, and a kitchen staple for many recipes.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-05-08",
+        "discount": 12,
+        "price": 2.29,
+        "image": "",
+        "review": []
+      }
+    ],
+    "sauce": [
+      {
+        "id": 1,
+        "name": "Hot Sauce",
+        "category": "sauce",
+        "stock": true,
+        "quantity": 50,
+        "rating": 9.3,
+        "description": "A fiery blend of chili peppers, vinegar, and spices. Perfect for spicing up tacos, wings, and all your favorite dishes. Adds a bold kick of heat and flavor to your meals.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-06-01",
+        "discount": 8,
+        "price": 2.49,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 2,
+        "name": "Soy Sauce",
+        "type": "sauce",
+        "stock": true,
+        "quantity": 60,
+        "rating": 9.0,
+        "description": "Traditional soy sauce made from fermented soybeans, perfect for stir-fries, marinades, and dipping sauces. Adds a savory umami flavor to dishes and a great addition to Asian cuisine.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-10-01",
+        "discount": 5,
+        "price": 1.99,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 3,
+        "name": "Barbecue Sauce",
+        "type": "sauce",
+        "stock": true,
+        "quantity": 45,
+        "rating": 8.5,
+        "description": "Smoky and tangy barbecue sauce, perfect for grilling, marinating, and as a dip. It adds a rich, sweet, and spicy flavor to meats, vegetables, and sandwiches.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-09-15",
+        "discount": 10,
+        "price": 2.49,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 4,
+        "name": "Ketchup",
+        "type": "sauce",
+        "stock": true,
+        "quantity": 100,
+        "rating": 9.2,
+        "description": "Classic tomato ketchup with a perfect balance of sweet and tangy. Ideal for burgers, fries, and as a condiment for various fast foods.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-11-01",
+        "discount": 7,
+        "price": 1.49,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 5,
+        "name": "Mustard",
+        "type": "sauce",
+        "stock": true,
+        "quantity": 80,
+        "rating": 8.0,
+        "description": "Classic yellow mustard with a tangy and slightly spicy flavor. Perfect for hot dogs, sandwiches, and as a dressing for salads or marinades.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-10-15",
+        "discount": 6,
+        "price": 1.29,
+        "image": "",
+        "review": []
+      },
+      {
+        "id": 6,
+        "name": "Sour Cream",
+        "type": "sauce",
+        "stock": true,
+        "quantity": 50,
+        "rating": 8.7,
+        "description": "Creamy and tangy sour cream, perfect for tacos, baked potatoes, or as a base for dips. Adds a smooth texture and mild acidity to dishes.",
+        "bakeIn": "2025-04-08",
+        "expireIn": "2025-08-15",
+        "discount": 8,
+        "price": 2.29,
+        "image": "",
+        "review": []
+      }      
+    ]
+  }
+}
