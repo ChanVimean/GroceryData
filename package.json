@@ -15,7 +15,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "grocery-data": "file:",
-    "json-server": "^1.0.0-beta.3",
+    "json-server": "^0.17.1",
     "nodemon": "^3.1.9"
   }
 }
